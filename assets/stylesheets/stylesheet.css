@@ -1,43 +1,20 @@
-
-
-
-
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
-
-body {
-  -webkit-font-smoothing: antialiased;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+body {-webkit-font-smoothing: antialiased; padding-top: 20px; padding-bottom: 20px;}
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
-.footer {
-  padding-right: 15px;
-  padding-left: 15px;
-}
+.footer {padding-right: 15px; padding-left: 15px;}
 
 /* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-}
+.header { border-bottom: 1px solid #e5e5e5;}
 /* Make the masthead heading the same height as the navigation */
-.header h3 {
-  padding-bottom: 19px;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-}
+.header h3 {padding-bottom: 19px; margin-top: 0; margin-bottom: 0; line-height: 40px;}
 
 /* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
+.footer {padding-top: 19px; color: #777; border-top: 1px solid #e5e5e5;}
 
 /* Customize container */
 @media (min-width: 768px) {
@@ -45,45 +22,39 @@ body {
     max-width: 730px;
   }
 }
-.container-narrow > hr {
-  margin: 30px 0;
-}
+.container-narrow > hr { margin: 30px 0;}
 
 /* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-.jumbotron .btn {
-  padding: 14px 24px;
-  font-size: 21px;
-}
+.jumbotron {text-align: center;border-bottom: 1px solid #e5e5e5;}
+.jumbotron .btn {padding: 14px 24px;font-size: 21px;}
 
 /* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
-}
+.marketing {margin: 40px 0;}
+.marketing p + h4 {margin-top: 28px;}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
   .header,
   .marketing,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
-  }
+  .footer {padding-right: 0; padding-left: 0;}
   /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
+  .header {margin-bottom: 30px;}
   /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+  .jumbotron {border-bottom: 0;}
+}
+
+.jumbotron, .gray-mix{
+	padding:15px;
+	color:#000; text-shadow: #dfdfdf 0.1em 0.1em 0.2em; font-family: 'Ropa Sans', 'sans-serif';
+	background: #f5f6f6;
+	background: -moz-linear-gradient(top,  #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f6f6), color-stop(21%,#dbdce2), color-stop(49%,#b8bac6), color-stop(80%,#dddfe3), color-stop(100%,#f5f6f6));
+	background: -webkit-linear-gradient(top,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);
+	background: -o-linear-gradient(top,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);
+	background: -ms-linear-gradient(top,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);
+	background: linear-gradient(to bottom,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 );
 }
 
 
