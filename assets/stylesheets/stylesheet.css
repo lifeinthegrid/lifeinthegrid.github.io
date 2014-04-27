@@ -12,7 +12,7 @@ body {-webkit-font-smoothing: antialiased; padding-top: 20px; padding-bottom: 20
 .header h3 {padding-bottom: 19px; margin-top: 0; margin-bottom: 0; line-height: 40px;}
 
 /* Custom page footer */
-.footer {padding-top: 19px; color: #777; border-top: 1px solid #e5e5e5;}
+.footer {padding-top:5px; color: #777; border-top: 1px solid #e5e5e5;}
 
 /* Customize container */
 @media (min-width: 768px) {
