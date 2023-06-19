@@ -40,7 +40,6 @@ select#theme {font-size:16px; margin-bottom:4px}
 /* Index Page */
 div.demo-links {border:1px solid silver; border-radius:5px;}
 div.demo-links a {text-decoration: underline}
-div.demo-links  table td {padding: 6px}
 
 /*LIGHT BOX */
 #mapit-lightbox-shadow {
