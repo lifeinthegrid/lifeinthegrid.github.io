@@ -1,0 +1,44 @@
+/*******************************************************************************
+Theme Styles
+*******************************************************************************/
+body {-webkit-font-smoothing: antialiased; padding-top: 20px; padding-bottom: 20px;  font-size:16px}
+.content {max-width:800px; margin: auto; padding:0 20px 0 20px}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {padding-right: 15px; padding-left: 15px;}
+
+/* Custom page header */
+.header h3 {padding-bottom: 19px; margin-top: 0; margin-bottom: 0; line-height: 40px;}
+.header img  { height:25px; margin-top:-5px}
+.header a.logo-info {color:#000 !important; font-weight:bold; text-decoration: none;}
+.header a.git {text-decoration: none; color:#999; font-weight: normal;}
+.header a.git:hover {color:#777}
+
+
+.jumbotron {
+	text-align: center;
+	padding:10px 0 1px 0;
+	color:#fff; text-shadow: #222 0.1em 0.1em 0.2em; font-family: 'Ropa Sans', 'sans-serif';
+    background: linear-gradient(-45deg, #8a9fce, #411fb2, #5e136e);
+    background-size: 400% 400%;
+    animation: background-gradient-animator 25s ease infinite;
+}
+.jumbotron .btn {padding: 14px 24px;font-size: 21px;}
+.jumbotron p.lead {padding: 14px 24px;font-size: 21px;}
+
+.marketing {margin: 40px 0;}
+.marketing p + h4 {margin-top: 28px;}
+.marketing p a {font-weight: bold}
+.marketing .btn {min-width:125px}
+
+@keyframes background-gradient-animator {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}
+
+/* Custom page footer */
+.footer {padding:300px;}
+.footer a {color:#777}
