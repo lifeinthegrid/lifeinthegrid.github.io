@@ -49,13 +49,12 @@
 	TOP NAVIGATION -->
 	<table class="top-nav">
 		<tr>
-			<td class="column-0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 			<td class="column-1">
 				<h2>PlayIt - Load Simulator</h2>
 				<span>Testing PlayIt with large data sets</span>
 			</td>
 			<td class="column-2">
-				ThemeRoller Ready!<br/>
+				ThemeRoller:<br/>
 				<select id="theme" onchange="javascript:applyTheme(this.options[this.selectedIndex].text);">
 					<option>cupertino</option>
 					<option>black-tie</option>
