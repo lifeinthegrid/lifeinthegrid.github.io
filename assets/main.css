@@ -46,7 +46,7 @@ div.legacy small {font-style: italic;}
 }
 
 /* Custom page footer */
-.footer {padding:300px;}
+.footer {margin: 30px 0 0 0; padding:5px; text-align: center; background-color: #efefef; border-radius:7px;}
 .footer a {color:#777}
 .date {color:#555; font-style: italic; font-size: 12px;}
 #img-rocket {margin:0; border: 0 solid red; display: block;}
