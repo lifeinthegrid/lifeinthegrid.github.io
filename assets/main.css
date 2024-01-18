@@ -19,11 +19,12 @@ body {-webkit-font-smoothing: antialiased; padding-top: 20px; padding-bottom: 20
 
 .jumbotron {
 	text-align: center;
-	padding:10px 0 1px 0;
+	padding:5px;
 	color:#fff; text-shadow: #222 0.1em 0.1em 0.2em; font-family: 'Ropa Sans', 'sans-serif';
     background: linear-gradient(-45deg, #8a9fce, #411fb2, #5e136e);
-    background-size: 400% 400%;
-    animation: background-gradient-animator 25s ease infinite;
+    background-size: 300% 300%;
+    animation: background-gradient-animator 10s ease infinite;
+	box-shadow: 6px 6px 7px rgba(0, 0, 0, 0.3);
 }
 .jumbotron .btn {padding: 14px 24px;font-size: 21px;}
 .jumbotron p.lead {padding: 14px 24px;font-size: 21px;}
@@ -47,3 +48,6 @@ div.legacy small {font-style: italic;}
 /* Custom page footer */
 .footer {padding:300px;}
 .footer a {color:#777}
+.date {color:#555; font-style: italic; font-size: 12px;}
+#img-rocket {margin:0; border: 0 solid red; display: block;}
+.overview {border:1px solid rgb(223, 223, 223); border-radius: 5px; background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(239,239,239,1) 100%);}

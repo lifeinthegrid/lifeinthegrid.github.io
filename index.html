@@ -14,65 +14,77 @@
 <body>
 <div class="content">
 
-
 	<!-- HEADER -->
 	<div class="header d-flex">
-		<div class="p-2 w-100 fs-5">
-			<a class="logo-info" href="//gridlife.io" target="_blank"><img src="assets/images/logo-01.png"/>&nbsp;GridLife.io</a>
+		<div class="p-2 w-100 fs-4">
+			<!-- <a class="logo-info" href="//gridlife.io" target="_blank"><img src="assets/images/logo-01.png"/>&nbsp;GridLife.io</a> -->
+			<b><img src="assets/images/logo-01.png"/>&nbsp; Portfolio </b><br/>
 		</div>
 		<div class="p-2 flex-shrink-1 text-nowrap fs-6">
-			<a class="git" href="index.html">
-				<i class="fa-brands fa-github fa-fw"></i> lifeinthegrid.github.io
-			</a>
+			<a class="git" href="https://github.com/lifeinthegrid?tab=repositories"><i class="fa-brands fa-github fa-fw"></i> lifeinthegrid.github.io</a><br/>
+			<a class="git" href="https://lamle.org" target="_blank"><i class="fa-regular fa-address-card fa-fw"></i> Cory Lamle</a>
 		</div>
 	</div>
 
 	<!-- JUMBOTRON -->
-	<div class="jumbotron rounded-4 shadow">
-		<h1 class="display-4">Great Projects...</h1>
-		<p class="fs-2">Are Free Projects!</p>
+	<div class="jumbotron rounded-4">
+		<div class="d-flex">
+			<div class="p-2 w-100">
+				<b class="display-6">Great Projects...</b>
+				<p class="fs-3">Are Free Projects!</p>
+			</div>
+			<div class="p-2 flex-shrink-1">
+				<img id="img-rocket"  src="assets/images/rocket01.png" class="float-end" alt="" style="height:90px;"/>
+			</div>
+		  </div>
 	</div>
 
-	<div class="row marketing">
-		<div class="col-md-6 p-4">
-			<h2><i class="fa-solid fa-gear fa-fw fa-sm"></i> Duplicator</h2>
-			Duplicator is a free WordPress plugin used to rapidly clone/move sites.
-			<i class="info">
-				Duplicator was acquired by <a href="//awesomemotive.com/" target="_blank">Awesome Motive</a>
-				in late 2022.
-			</i>
 
-			<br/><br/>
-			<div class="btn-group btn-group-justified" style="width:70%;margin:auto">
+	<!-- MARKET PULSE -->
+	<div class="row marketing">
+		<div class="col-md-5 p-4">
+			<h2><i class="fa-solid fa-chart-line fa-fw fa-sm"></i> Market Pulse</h2>
+			<br>
+			<div class="date">Founded: 01/2024</div>
+			<div class="btn-group btn-group-justified">
+				<div class="btn-group">
+					<a href="//github.com/lifeinthegrid/CryptoRater-Markets" target="_blank" class="btn btn-outline-dark btn-sm">Download <i class="fa fa-download"></i></a>
+					<a href="//cryptorater-markets.vercel.app/src/" target="_blank" class="btn btn-outline-dark btn-sm">Demos <i class="fa-solid fa-laptop fa-fw"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-7 p-4 overview">
+			Market Pulse is a client-side JavaScript app used to track crypto currency markets. The source is GPL and
+			free for personal/commercial projects. It is brought to you by <a href="//cryptorater.io"  target="_blank">CryptoRater.io</a>.
+			The best resources for all your crypto product reviews.
+		</div>
+	</div>
+	<br><hr>
+
+	<!-- DUPLICATOR -->
+	<div class="row marketing">
+		<div class="col-md-5 p-4">
+			<h2><i class="fa-solid fa-gear fa-fw fa-sm fa-spin" style="--fa-animation-duration: 15s;"></i> Duplicator</h2>
+			<br>
+			<div class="date">Founded: 05/2011</div>
+			<div class="btn-group btn-group-justified">
 				<div class="btn-group">
 					<a href="//wordpress.org/plugins/duplicator/" target="_blank" class="btn btn-outline-dark btn-sm">Download <i class="fa fa-download"></i></a>
 					<a href="https://plugins.trac.wordpress.org/browser/duplicator/" target="_blank" class="btn btn-outline-dark btn-sm">
 						Source <i class="fa-regular fa-file-code fa-fw"></i>
 					</a>
-
 				</div>
-
 			</div>
 		</div>
-
-		<div class="col-md-6 p-4">
-			<h3>Want more great tools?</h3>
-
-			<div class="d-flex">
-				<div class="p-2 flex-grow-1">
-					Check out our growing list of resources for your business. <br/> <br/>
-					<a class="btn btn-dark btn-sm" href="https://gridlife.io/category/all-tools/?pt=tool">More Tools...</a>
-
-				</div>
-				<div class="p-2">
-					<img src="assets/images/rocket01.png" class="float-end" alt="" style="height:120px; margin:0"/>
-				</div>
-			  </div>
+		<div class="col-md-7 p-4 overview">
+			Duplicator is a freemium WordPress plugin used to rapidly clone/move and backup sites.  With well over
+			<a href="https://wordpress.org/plugins/duplicator/advanced/" target="_blank">40 million downloads</a> its a solid piece of software
+			that does its job very well. The rights to the plugin were acquired by <a href="//awesomemotive.com/" target="_blank">Awesome Motive</a> in
+			late 2022 along with sale of my company.
 		</div>
+	</div><br>
 
-	</div>
-
-
+	<!-- LEGACY -->
 	<div class="row marketing">
 		<div class="legacy">
 			<h5>Legacy Projects</h5>
@@ -82,27 +94,30 @@
 		<div class="col-md-6 p-4">
 			<h2><i class="fa-regular fa-circle-play fa-fw fa-sm"></i> PlayIt</h2>
 			PlayIt is your free ultimate online web player, used to organize all kinds of media.
-			<br/><br/><br/>
+			<br/><br/>
 
-			<div class="btn-group btn-group-justified" style="width:70%;margin:auto">
+			<div class="date">Founded: 2005</div>
+			<div class="btn-group btn-group-justified">
 				<div class="btn-group">
-					<a href="https://github.com/lifeinthegrid/playit" class="btn btn-outline-dark btn-sm" >Download <i class="fa fa-download"></i></a>
+					<a href="https://github.com/lifeinthegrid/playit" target="_blank" class="btn btn-outline-dark btn-sm" >Download <i class="fa fa-download"></i></a>
 				</div>
 				<div class="btn-group">
-					<a href="demos/playit/index.html" class="btn btn-outline-dark btn-sm">Demos <i class="fa-solid fa-laptop fa-fw"></i></a>
+					<a href="demos/playit/index.html" target="_blank" class="btn btn-outline-dark btn-sm">Demos <i class="fa-solid fa-laptop fa-fw"></i></a>
 				</div>
 			</div>
 		</div>
 
 		<div class="col-md-6 p-4">
 			<h2><i class="fa-solid fa-location-dot fa-fw fa-sm"></i> MapIt</h2>
-			MapIt is a free jquery Google mapping plugin used to organize mapping locations. <br/><br/><br/>
-			<div class="btn-group btn-group-justified" style="width:70%;margin:auto">
+			MapIt is a free jquery Google mapping plugin used to organize mapping locations.
+			<br/><br/>
+			<div class="date">Founded: 2004</div>
+			<div class="btn-group btn-group-justified">
 				<div class="btn-group">
-					<a href="https://github.com/lifeinthegrid/mapit" class="btn btn-outline-dark btn-sm" >Download <i class="fa fa-download"></i></a>
+					<a href="https://github.com/lifeinthegrid/mapit" target="_blank" class="btn btn-outline-dark btn-sm" >Download <i class="fa fa-download"></i></a>
 				</div>
 				<div class="btn-group">
-					<a href="demos/mapit/index.html" class="btn btn-outline-dark btn-sm">Demos <i class="fa-solid fa-laptop fa-fw"></i></a>
+					<a href="demos/mapit/index.html" target="_blank" class="btn btn-outline-dark btn-sm">Demos <i class="fa-solid fa-laptop fa-fw"></i></a>
 				</div>
 			</div>
 		</div>
